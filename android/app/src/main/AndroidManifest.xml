@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.faceid_localauth">
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
    <application
         android:label="faceid_localauth"
         android:name="${applicationName}"
